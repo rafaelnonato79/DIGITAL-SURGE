@@ -1,0 +1,181 @@
+/* SECTION SERVIÇOS */
+.container-servicos{
+    max-width: 1600px;
+    overflow: hidden;
+}
+.servicos{
+    background: #121212;
+    width: 100%;
+    height: 901px;
+    color: #FFFFFF; 
+    overflow: hidden;
+}
+.texto-servicos{
+    margin-left: 160px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.texto-servicos h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.texto-servicos p{
+    width: 1200px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+
+.carousel {
+    width: 100%;
+    margin-left:85px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-right: 85px;
+}
+.carousel::after{
+    content: '';
+    display: block;
+    clear: both;
+    background-color: #121212;
+    width: 85px;
+    height: 500px;
+    position: absolute;
+    right: 5%;
+    top: 10px;
+}
+
+.carousel .card-servico{
+    margin-right:42px;
+    width: 509px;
+    height: 452px;
+    transform-origin: bottom;
+}
+
+.card-servico h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #F2F2F2;
+    z-index: 700;
+    position: relative;
+    left: 50px;
+    top: -140px;
+
+    display: flex;
+    align-items: flex-end;
+    height: 100px; /* Ajuste conforme necessário para garantir altura mínima */
+    text-align:left;
+    margin: 0;
+}
+
+.carousel img {
+    width: 509px;
+    height: 452px;
+    margin-right: 42px;
+}
+.botao-esquerdo, .botao-direito{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.botao-esquerdo {
+    left: 10px;
+    top: 280px;
+    position: relative;
+}
+.botao-direito {
+    position: relative;
+    top: -223px;
+    left: 88%;
+}
+.botao-esquerdo img, .botao-direito img{
+    width: 16px;
+    height: 32px;
+}
+
+@media (max-width: 1600px) {
+    .servicos{
+        width: 100vw;
+    }
+    .texto-servicos{
+        margin-left: 160px;
+    }
+    .carousel{
+        width: 95%;
+        margin-left: 50px;
+       
+    }
+    .carousel .card-servico{
+        margin-right: 10px;
+        padding-right: 10px;
+      
+    }
+    .card-servico, .card-servico img{
+        width: 435px;
+
+    }
+    .card-servico h4 {
+        width: 435px;
+        left: 10px;
+        font-size: 30px;
+    }
+
+    .carousel::after{
+        display: none;
+    }
+    .botao-direito {
+        left: 95%;
+    }
+
+    
+}
+
+@media (max-width: 1450px) {
+
+    .carousel .card-servico{
+        width: 400px;
+    }
+    .carousel .card-servico img{
+        width: 400px;
+    }
+    .carousel .card-servico h4{
+        width: 335px;
+        font-size: 26px;
+    }
+    .texto-servicos {
+        margin-left: 39px;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    
+}
+
+

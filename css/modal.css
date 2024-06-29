@@ -1,0 +1,170 @@
+.modal-container {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal {
+    background: white;
+    padding: 40px 40px 20px 90px;
+    border-radius: 8px;
+    max-width: 1280px;
+    width: 90%;
+    height: 680px;
+    box-sizing: border-box;
+}
+.modal p{
+    margin-right: 50px;
+    margin-top: 24px;
+
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    /* c7 */
+    color: #333333;
+
+
+}
+.botao-fechar{
+    display: flex;
+    justify-content: flex-end;
+}
+.fechar{
+    cursor: pointer;
+    background: white;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+.fechar img{
+    width: 100%;
+    height: 100%;
+}
+
+.modal-container .modal form{
+    width: 1100px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.linha-form-modal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 76px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.nome-modal, .telefone-modal, .email-modal, .rede-social-modal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 540px;
+}
+
+.telefone-modal::placeholder{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: uppercase;
+
+    /* c4 */
+    color: #C4C4C4;
+
+
+}
+.modal input{
+    width: 540px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+}
+
+.checkbox-modal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    gap: 5px;
+    width:32px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.checkbox-modal input{
+    width: 20px;
+    height: 20px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+    
+}
+.checkbox-modal label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.015em;
+
+    /* c7 */
+    color: #333333;
+
+    width: 500px;
+
+}
+
+.solicitar-material{
+
+    width: 308px;
+    height: 56px;
+    /* o1 */
+    background: #FF5733;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    text-transform: uppercase;
+
+    /* c8 */
+    color: #121212;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+@media (max-width:1600px){
+
+}

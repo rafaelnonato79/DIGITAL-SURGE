@@ -1,0 +1,139 @@
+/* SECTION SOBRE */
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 1552px;
+    background: #F7F7F7;
+}
+
+.titulo-sobre{
+    width: 513px;
+    height: 52px;
+    margin-left: 160px;
+    margin-top: 78px;
+}
+
+.titulo-sobre h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: #333333;
+}
+
+.texto-sobre, .nossa-historia{
+    width: 1200px;
+    margin-top: 32px;
+    margin-left: 160px;
+    }
+
+.texto-sobre p, .nossa-historia p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+.nossa-equipe-titulo{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.nossa-equipe-titulo h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.nossa-equipe{
+    display: flex;
+    flex-direction: row;
+    margin-left: 85px;
+    gap: 40px;
+    box-sizing: border-box;
+
+}
+.nossa-historia p{
+    margin-top: 20px;
+}
+
+.visao-valores{
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+.visao-valores h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.card-visao-valores{
+    width: 1280px;
+    height: 50px;
+    border-radius: 5px;
+    background: #F0EEEE;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.card-visao-valores p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 39px;
+    margin-bottom: 0;
+}
+
+.card-visao-valores::before{
+    content: '';
+    display: block;
+    width: 4px;
+    height: 10px;
+    background: #FF5733;
+    border-radius: 1px;
+    margin-left: 39px;
+    position: relative;
+    left: 35px;
+
+}
+.nossos-valores{
+    margin-top: 32px;
+}
+
+.nossos-valores span{
+    font-weight: 700;
+}
+.nossos-valores ul{
+    padding: 0;
+}
+
+@media (max-width: 1600px) {
+    .sobre{
+        width: 100vw;
+    }
+    .titulo-sobre, .texto-sobre, .nossa-equipe-titulo, .nossa-historia, .visao-valores{
+        margin-left: 160px;
+    }
+    .nossa-equipe{
+        margin-left: 160px;
+        gap: 20px;
+    }
+    
+}

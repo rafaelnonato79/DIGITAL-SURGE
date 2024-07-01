@@ -5,7 +5,7 @@ $(document).ready(function(){
         infinite: true,
         autoplay: true, // Opção de autoplay (se desejar)
         autoplaySpeed: 5000, // Velocidade do autoplay (se desejar)
-        
+        variableWidth: true, 
 
 
         prevArrow: '<div class="botao-esquerdo"><img src="imgs/seta-esquerda.png" alt="seta-esquerda"></div>',
@@ -20,7 +20,13 @@ $(document).ready(function(){
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
                 }
             }
         ]

@@ -156,6 +156,56 @@
                         width: 350px;
                         padding: 40px 20px;
                     }
+
+            @media (max-width: 540px) {
+                .equipe{
+                    width:326px;
+                    height:303px;
+                    padding: 28px;
+                    margin-top: 0px;
+                    box-sizing: border-box;
+                }
+                .informacoes{
+                    height: 50px;
+                    margin-top: 10px;
+                }
+                .cabecalho img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 10px;
+                }
+                .informacoes h4{
+                    font-size: 14px;
+                    line-height: 14px;
+                    margin:0;
+                }
+                .informacoes span{
+                    font-size: 10px;
+                    font-weight: 600;   
+                    margin-top: 2px;  
+                }
+                .informacoes img{
+                    width: 11.27px;
+                    height: 12px;
+                    margin-top: 2px;
+                }
+
+                .informacoes::after{
+                    left: 190px;
+                }
+                .equipe p{
+                    width: 280px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 16px;   
+                    line-height: 24px;
+                    text-align: left;
+                    margin-botton:33px;
+
+                }
+            
+
+            }
             `;
 
         shadow.appendChild(style);

@@ -1,121 +1,115 @@
 /* SECTION SERVIÇOS */
 .container-servicos{
-    max-width: 1600px;
+    max-width: 100rem;
     overflow: hidden;
 }
 .servicos{
     background: #121212;
     width: 100%;
-    height: 901px;
+    height: 56.3125rem;
     color: #FFFFFF; 
     overflow: hidden;
 }
 .texto-servicos{
-    margin-left: 160px;
-    margin-top: 75px;
+    margin-left: 10rem;
+    margin-top: 4.6875rem;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
 }
 .texto-servicos h2{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 52px;
+    font-size: 3rem;
+    line-height: 3.25rem;
     color: #FFFFFF;
 }
 
 .texto-servicos p{
-    width: 1200px;
-
+    width: 75rem;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     color: #FFFFFF;
 }
 
-
 .carousel {
     width: 100%;
-    margin-left:85px;
+    margin-left: 5.3125rem;
     overflow: hidden;
-    box-sizing: border-box;
-    margin-top: 80px;
-    margin-right: 85px;
+    margin-top: 5rem;
+    margin-right: 5.3125rem;
 }
 .carousel::after{
     content: '';
     display: block;
     clear: both;
     background-color: #121212;
-    width: 85px;
-    height: 500px;
+    width: 5.3125rem;
+    height: 31.25rem;
     position: absolute;
     right: 5%;
-    top: 10px;
+    top: 0.625rem;
 }
 
-.carousel .card-servico{
-    margin-right:42px;
-    width: 509px;
-    height: 452px;
+.carousel .card-servico{ 
+    width: 31.8125rem;
+    height: 28.25rem;
+    margin-right: 2.625rem;
     transform-origin: bottom;
-}
 
+}
+.carousel img {
+    width: 100%;
+    height: 28.25rem;
+    margin-right: 2.625rem;
+}
 .card-servico h4{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-
+    font-size: 1.75rem;
+    line-height: 2.5rem;
     color: #F2F2F2;
     z-index: 700;
     position: relative;
-    left: 50px;
-    top: -140px;
-
+    left: 1.25rem;
+    top: -8.75rem;
     display: flex;
     align-items: flex-end;
-    height: 100px; /* Ajuste conforme necessário para garantir altura mínima */
+    height: 6.25rem; 
     text-align:left;
     margin: 0;
 }
 
-.carousel img {
-    width: 509px;
-    height: 452px;
-    margin-right: 42px;
-}
 .botao-esquerdo, .botao-direito{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px;
+    font-size: 1.5rem;
     background: transparent;
     border: none;
     z-index: 2;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 .botao-esquerdo {
-    left: 10px;
-    top: 280px;
+    left: 0.625rem;
+    top: 17.5rem;
     position: relative;
 }
 .botao-direito {
     position: relative;
-    top: -223px;
+    top: -13.9375rem;
     left: 88%;
 }
 .botao-esquerdo img, .botao-direito img{
-    width: 16px;
-    height: 32px;
+    width: 1rem;
+    height: 2rem;
 }
 
 @media (max-width: 1600px) {
@@ -123,59 +117,130 @@
         width: 100vw;
     }
     .texto-servicos{
-        margin-left: 160px;
+        margin-left: 10rem;
     }
     .carousel{
-        width: 95%;
-        margin-left: 50px;
-       
+        width: 92%;
+        margin-left: 3.125rem;
     }
     .carousel .card-servico{
-        margin-right: 10px;
-        padding-right: 10px;
-      
+        margin-right: 40px;
+        padding-right: 0.625rem;
     }
     .card-servico, .card-servico img{
-        width: 435px;
-
+        width: 27.1875rem;
     }
     .card-servico h4 {
-        width: 435px;
-        left: 10px;
-        font-size: 30px;
+        width: 27.1875rem;
+        left: 0.625rem;
+        font-size: 1.875rem;
     }
-
     .carousel::after{
         display: none;
     }
-    .botao-direito {
-        left: 95%;
+    .botao-direito{
+        left: 98%;
     }
-
-    
 }
 
 @media (max-width: 1450px) {
-
     .carousel .card-servico{
-        width: 400px;
+        width: 25rem;
     }
     .carousel .card-servico img{
-        width: 400px;
+        width: 25rem;
     }
     .carousel .card-servico h4{
-        width: 335px;
-        font-size: 26px;
+        width: 20.9375rem;
+        font-size: 1.625rem;
     }
     .texto-servicos {
-        margin-left: 39px;
-        margin-top: 75px;
+        margin-left: 2.4375rem;
+        margin-top: 4.6875rem;
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 2rem;
     }
-
-    
 }
 
-
+@media (max-width: 540px){
+    .container-servicos{
+        max-width: 100%;
+        height: 40.625rem;
+    }
+    .servicos{
+        height: 36.5625rem;
+    }
+    .texto-servicos{
+        margin-left: 1.5rem;
+        margin-top: 1.25rem;
+        gap: 1rem;
+    }
+    .texto-servicos h2{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+    .texto-servicos p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .carousel {
+        margin-left: 0;
+        margin-top: 1rem;
+        margin-right: 0;
+        width: 19.5rem;
+        height: 16.9375rem;
+        margin-left: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel .card-servico{
+        margin-right: 0;
+        width: 19.5rem;
+        max-width: 100%;
+        transform-origin: bottom;
+        padding: 0;
+        margin-bottom: 3.125rem;
+    }
+    .carousel .card-servico img{
+        width: 100%;
+        height: 16.9375rem;
+        margin-right: 0;
+    }
+    .carousel::after{
+        display: none;
+    }
+    .carousel .card-servico h4{
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin: 0;
+        width: 17rem;
+    }
+    .botao-esquerdo, .botao-direito{
+        position: absolute;
+        top: 20%;
+        transform: translateY(-50%);
+        font-size: 1.5rem;
+        background: transparent;
+        border: none;
+        z-index: 2;
+        cursor: pointer;
+        width: 0.5rem;
+        height: 1rem;
+    }
+    .botao-esquerdo {
+        left: 0.625rem;
+        top: 9.0625rem;
+        position: relative;
+    }
+    .botao-direito {
+        position: relative;
+        top: 150px;
+        left: -15px;
+    }
+    .botao-esquerdo img, .botao-direito img{
+        width: 0.5rem;
+        height: 1rem;
+    }
+}

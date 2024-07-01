@@ -22,11 +22,10 @@ Você pode acessar e visualizar o projeto diretamente no link do Vercel disponib
 Estrutura do Código
 O código está organizado em seções principais:
 
-Estilos CSS: O arquivo style.css contém todos os estilos da página, incluindo a definição de layouts responsivos usando unidades rem.
-Script JavaScript: Implementado no arquivo script.js, responsável por adicionar comportamentos interativos, como o controle do carrossel e ajustes dinâmicos da interface.
+Estilos CSS: O estilo está dividido em arquivos de CSS e importadas todas no arquivo principal (style.css) 
+Script JavaScript: O script também foi divido em arquivos diferente, sendo responsável por adicionar comportamentos interativos, como o controle do carrossel e ajustes dinâmicos da interface.
 Considerações Finais
 Este projeto exemplifica o uso das tecnologias web fundamentais para o desenvolvimento de uma landing page moderna e responsiva. A integração da biblioteca Slick Carousel adiciona um elemento de dinamismo e visual atrativo, adequado para a apresentação de conteúdo visual em formatos variados.
 
 Para modificações ou melhorias, recomenda-se editar os arquivos fonte diretamente e reimplantar no Vercel para atualizações instantâneas no ambiente de produção.
 
-Para mais detalhes ou suporte técnico, entre em contato conosco através dos nossos canais de comunicação.

@@ -17,7 +17,7 @@ Slick Carousel: Biblioteca JavaScript/jQuery utilizada para criar e gerenciar ca
 Como Executar o Projeto
 Você pode acessar e visualizar o projeto diretamente no link do Vercel disponibilizado abaixo:
 
-[Link para o Projeto no Vercel](https://digital-surge.vercel.app/)
+[Link para o Projeto no Vercel](https://digital-surge.vercel.app/){:target="_blank"}
 
 Estrutura do Código
 O código está organizado em seções principais:
